@@ -1,0 +1,193 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 750000,
+      "tenure": "Freehold",
+      "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises two receptions, fitted kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior.",
+      "location": "Petts Wood Road, Petts Wood, Orpington BR5 1LA",
+      "postcode": "BR5",
+      "pictures": [
+        "images/prop1/pic1.png",
+        "images/prop1/pic2.png",
+        "images/prop1/pic3.png",
+        "images/prop1/pic4.png",
+        "images/prop1/pic5.png",
+        "images/prop1/pic6.png"
+      ],
+      "map": {
+        "lat": 51.3857,
+        "lng": 0.0709
+      },
+      "added": {
+        "month": "October",
+        "day": 12,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 399995,
+      "tenure": "Freehold",
+      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher and a washing machine. This large open plan space benefits from bi-folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite with a shower attachment over the bath. There is also a separate wet room, and the apartment is still under a 10 year building guarantee.",
+      "location": "Crofton Road, Orpington BR6 8HZ",
+      "postcode": "BR6",
+      "pictures": [
+        "images/prop2/pic1.png",
+        "images/prop2/pic2.png",
+        "images/prop2/pic3.png",
+        "images/prop2/pic4.png",
+        "images/prop2/pic5.png",
+        "images/prop2/pic6.png"
+      ],
+      "map": {
+        "lat": 51.3742,
+        "lng": 0.0942
+      },
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop3",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 245000,
+      "tenure": "Leasehold",
+      "description": "A well-proportioned one bedroom first floor apartment, ideal for a first time buyer or investor. The property benefits from a bright reception room, a separate fitted kitchen, a double bedroom with built-in wardrobes, and a modern shower room. Located moments from Bromley North station and the vibrant Market Square, with a wealth of shops, cafes and restaurants close by. The property is offered chain free.",
+      "location": "Market Square, Bromley BR1 1TQ",
+      "postcode": "BR1",
+      "pictures": [
+        "images/prop3/pic1.png",
+        "images/prop3/pic2.png",
+        "images/prop3/pic3.png",
+        "images/prop3/pic4.png",
+        "images/prop3/pic5.png",
+        "images/prop3/pic6.png"
+      ],
+      "map": {
+        "lat": 51.4039,
+        "lng": 0.0198
+      },
+      "added": {
+        "month": "January",
+        "day": 5,
+        "year": 2023
+      }
+    },
+    {
+      "id": "prop4",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 1250000,
+      "tenure": "Freehold",
+      "description": "An impressive five bedroom detached family residence set on a generous plot in one of the area's most sought after roads. The ground floor offers a large kitchen/diner, formal lounge, home office, and a bright garden room opening onto a landscaped south-facing garden. Upstairs there are five well proportioned bedrooms, including a principal suite with dressing room and en-suite, plus a family bathroom. A double garage and driveway provide ample off street parking.",
+      "location": "Chislehurst Road, Chislehurst BR7 5NP",
+      "postcode": "BR7",
+      "pictures": [
+        "images/prop4/pic1.png",
+        "images/prop4/pic2.png",
+        "images/prop4/pic3.png",
+        "images/prop4/pic4.png",
+        "images/prop4/pic5.png",
+        "images/prop4/pic6.png"
+      ],
+      "map": {
+        "lat": 51.4159,
+        "lng": 0.0731
+      },
+      "added": {
+        "month": "March",
+        "day": 22,
+        "year": 2023
+      }
+    },
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 895000,
+      "tenure": "Freehold",
+      "description": "A beautifully extended four bedroom semi-detached house offering versatile family accommodation throughout. The heart of the home is a stunning open plan kitchen/living/dining space with bi-fold doors leading to the rear garden. There is also a separate reception room, downstairs WC, and utility area. Upstairs are four bedrooms, including a master with en-suite, and a family bathroom. Located within the catchment of well regarded local schools.",
+      "location": "Station Road, West Wickham BR4 0PS",
+      "postcode": "BR4",
+      "pictures": [
+        "images/prop5/pic1.png",
+        "images/prop5/pic2.png",
+        "images/prop5/pic3.png",
+        "images/prop5/pic4.png",
+        "images/prop5/pic5.png",
+        "images/prop5/pic6.png"
+      ],
+      "map": {
+        "lat": 51.3773,
+        "lng": -0.0163
+      },
+      "added": {
+        "month": "June",
+        "day": 18,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 3,
+      "price": 525000,
+      "tenure": "Leasehold",
+      "description": "A rare opportunity to acquire a spacious three bedroom apartment within a well maintained purpose-built block. The property comprises a large reception room with balcony, separate fitted kitchen, three good sized bedrooms and a family bathroom. Residents benefit from a secure entry system, allocated parking, and beautifully kept communal gardens. Ideally placed for local shops and mainline rail links into central London.",
+      "location": "High Street, Beckenham BR3 1AT",
+      "postcode": "BR3",
+      "pictures": [
+        "images/prop6/pic1.png",
+        "images/prop6/pic2.png",
+        "images/prop6/pic3.png",
+        "images/prop6/pic4.png",
+        "images/prop6/pic5.png",
+        "images/prop6/pic6.png"
+      ],
+      "map": {
+        "lat": 51.4085,
+        "lng": -0.0257
+      },
+      "added": {
+        "month": "November",
+        "day": 2,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 2,
+      "price": 465000,
+      "tenure": "Freehold",
+      "description": "A charming two bedroom mid-terrace cottage full of character, featuring exposed beams and a cosy log burner in the sitting room. The kitchen/diner overlooks a pretty, low-maintenance rear garden, ideal for entertaining. Upstairs are two comfortable bedrooms and a family bathroom. Offered in good decorative order throughout, this home is perfectly suited to first time buyers or those looking to downsize without compromising on charm.",
+      "location": "Church Lane, Orpington BR6 0HN",
+      "postcode": "BR6",
+      "pictures": [
+        "images/prop7/pic1.png",
+        "images/prop7/pic2.png",
+        "images/prop7/pic3.png",
+        "images/prop7/pic4.png",
+        "images/prop7/pic5.png",
+        "images/prop7/pic6.png"
+      ],
+      "map": {
+        "lat": 51.3695,
+        "lng": 0.0871
+      },
+      "added": {
+        "month": "February",
+        "day": 9,
+        "year": 2025
+      }
+    }
+  ]
+}

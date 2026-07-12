@@ -1,0 +1,59 @@
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  background: var(--color-primary-dark);
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.app-logo {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.app-tagline {
+  margin: 0;
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+.app-main {
+  flex: 1;
+  padding: 1.5rem 2rem 3rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.app-footer {
+  background: var(--color-primary-dark);
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 1024px) {
+  .app-header {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+
+  .app-main {
+    padding: 1rem 1rem 2rem;
+  }
+}

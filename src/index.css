@@ -1,0 +1,65 @@
+:root {
+  /* Palette: deep navy (trust, estate-agent authority) + warm brass accent,
+     on a cool pale-slate background — deliberately not the cream/terracotta
+     combination that shows up by default. */
+  --color-primary: #1f3b57;
+  --color-primary-dark: #14283d;
+  --color-accent: #b8863b;
+  --bg: #eef1f4;
+  --surface: #ffffff;
+  --color-text: #22292f;
+  --color-text-muted: #6b7280;
+
+  /* Self-hosted system font stacks only — keeps us inside a strict CSP
+     (style-src/font-src 'self') with no external font requests. */
+  --font-heading: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Visible keyboard focus everywhere, including inside third-party widgets */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

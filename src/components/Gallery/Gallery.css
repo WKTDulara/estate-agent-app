@@ -1,0 +1,17 @@
+.property-gallery {
+  background: var(--surface);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.property-gallery .image-gallery-slide img {
+  max-height: 480px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.property-gallery .image-gallery-thumbnail img {
+  height: 60px;
+  object-fit: cover;
+}
