@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/estate-agent-app/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+      Content Security Policy (client-side hardening — coursework requirement).
+      - default-src 'self': only load resources from our own origin by default.
+      - script-src 'self': no inline scripts, no third-party script injection.
+      - style-src 'self' 'unsafe-inline': component libraries (react-widgets,
+        react-leaflet, react-image-gallery) inject small inline styles at runtime,
+        so this is a deliberate, narrow relaxation rather than a blanket allowance.
+      - img-src 'self' data: https://*.tile.openstreetmap.org: property images are
+        local, but the map tab loads live OpenStreetMap tiles.
+      - connect-src 'self' https://*.tile.openstreetmap.org: map tile requests.
+      - object-src 'none' / base-uri 'self': blocks plugin embeds and base tag hijacking.
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*.tile.openstreetmap.org; connect-src 'self' https://*.tile.openstreetmap.org; font-src 'self' data:; object-src 'none'; base-uri 'self'; frame-ancestors 'none';"
+    />
+    <title>Jula Estates</title>
+    <script type="module" crossorigin src="/estate-agent-app/assets/index-BqlHY3aC.js"></script>
+    <link rel="stylesheet" crossorigin href="/estate-agent-app/assets/index-C1qdFce_.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
